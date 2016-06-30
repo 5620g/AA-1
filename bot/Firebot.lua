@@ -304,13 +304,13 @@ function create_config( )
    "ti4me",
 
     },
-    sudo_users = {189308877},--Sudo users
+    sudo_users = {40754744},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🔥MonsterTGbot🔥 SuperGroup Commands:
+ 🔥SuperGroup Commands:🔥
 
 🎈!owner
 دریافت آیدی مدیر اصلی گروه
@@ -432,10 +432,7 @@ function create_config( )
 عضو شدن در گروه پشتیبانی ربات
 
 🎈!social
-
-دریافت راهنمای تفریحی
-🎈!t2s (text) (color) (font)
-ساخت استیکر رنگی 
+دستور تفریحی ربات
 
 🎈!sticker
 تبدیل به استیکر 
@@ -446,10 +443,15 @@ function create_config( )
 🎈!file 
 تبدیل به فایل 
 
-🎈!banner
-ساخت بنر
+🎈!time
+نمایش سایت
 
-🔥Channel:@MonsterTGbot🔥
+🎈!save
+سیو پلاگین با ریپلی
+
+🎈write متن	
+زیبا نویسی کلمه
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
