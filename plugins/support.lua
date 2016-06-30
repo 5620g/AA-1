@@ -4,7 +4,7 @@ vardump(success)
 vardump(result)
 end
 local function run(msg, matches)
-local user = 189308877
+local user = 40754744
 if matches[1] == "addsudo" then
 user = 'user#id'..user
 end
